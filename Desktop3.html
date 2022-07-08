@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./igm/logo.png" alt="">
+        </div>
+    </nav>
+
+    <div class="contenedorPrincipal">
+        <div class="contenedorcanvas">
+            <canvas id="canvas" width="400px" height="400px">
+
+            </canvas>
+        </div>
+
+        <section>
+           <div id="ContenedorLetras">
+           </div>
+           <div id="ContenedorLetrasUsadas">
+           </div>
+        </section>
+        <section class="contenedorbtnAgregar">
+           <a href=""> <button  onclick="mostrarcaracter()" id="nuevo" class="btn2 btn btn1c" > Nuevo juego</button></a>
+            <a href="./index.html"><button class="btn2 btn btn2c">Desistir</button></a>
+        </section>
+    </div>
+    <dialog class="ventanaidicaciones">
+        <div class="contenedordialog">
+            <div>
+                <p>-Para jugra oprime una tecla con la letra que quieres </p>
+                <p>-si no asiertas aprecera una parte del cuerpo tienes 5 intentos </p>
+            </div>
+            <p>buena suerte! </p>
+            <button  class="btnaceptar" >Aceptar</button>
+        </div>
+
+    </dialog>
+
+
+</body>
+<script   src="./JS/script.js" type="module" ></script>
+<script src="./JS/canvas.js" ></script>
+
+</html>
